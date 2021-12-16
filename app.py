@@ -23,6 +23,7 @@ def detect(gray, frame):
             cv2.rectangle(roi_color, (sx, sy), (sx+sw, sy+sh), (0, 0, 255), 2)
     return frame
 
+    
 
 st.title("OpenCV Haar Cascades Demo")
 st.sidebar.title('Configuration')
